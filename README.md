@@ -1,4 +1,4 @@
-# landing-design-kos
+# landing-design-kos - https://www.figma.com/file/TAMLGiYjpBykTaZabjI8S2/Landing-page-UI-Kit-%2B-Components-(Community)?node-id=1%3A87
 1. Create the landing page with adaptive design, using the @media.
 2. The Landing consists of Header - Content - Footer Blocks.
 3. Content Block: 
