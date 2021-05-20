@@ -113,6 +113,7 @@ image {
   flex-direction: row;
   width: 100%;
   margin: 80px 0 250px 125px;
+  text-align: left;
 }
 
 .left-bar {
@@ -234,6 +235,7 @@ image {
   display: flex;
   flex-direction: column;
   width: 73.5%;
+  text-align: left;
 }
 
 .container-75 h2 {
@@ -246,8 +248,8 @@ image {
   line-height: 110%;
   letter-spacing: -0.045em;
   color: #23242A;
-  margin-bottom: 64px
-  ;
+  margin-bottom: 64px;
+  padding-left: 70px;
 }
 
 .container-75 p {
@@ -259,6 +261,7 @@ image {
   letter-spacing: -0.01em;
   color: #23242A;
   margin-bottom: 168px;
+  padding-left: 70px;
 }
 
 .container-75 img {
@@ -274,15 +277,12 @@ image {
   
 }
 
-.block-container-test {
-  
-}
-
 .container-50 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0px 125px 120px 125px;
+  text-align: left;
 }
 
 .block-50-left {
@@ -337,15 +337,180 @@ image {
   color: #0E6FFF;
 }
 
-/* секция с бектором в верхнем правом углу */
+/* секция с вектором в верхнем правом углу */
 
 .vector-container {
   display: flex;
-  width: 100%;
-  margin: 240px 98px 0;
+  flex-direction: column;
+  margin: 240px 50px 0;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFF4D4;
   border-radius: 40px;
+  padding: 0 100px 100px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  
 }
+
+.vectior-head-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.vectior-head-part p {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #23242A;
+  text-align: left;
+}
+
+.vectior-head-part h2 {
+  text-align: left;
+  margin: 43px 0 43px 0
+}
+
+.design-concept {
+  display: inline-block;
+  justify-content: left;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 120%;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #23242A;
+  margin-top: 170px;
+}
+
+.container-50-vector {
+  display: flex;
+  flex-direction: row;
+  margin-top: 96px;
+  justify-content: space-between;
+}
+
+.container-50-vector img {
+  width: 50px;
+  height: 50px;
+}
+
+.col-50-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 0 5px;
+}
+
+.title-description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 0 0 32px;
+}
+.title-description p {
+  margin-top: 16px;
+}
+
+
+/* блок с 3мя колонками - аудит, тимворк, криейт */
+
+.container-3-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 125px 120px 125px;
+}
+
+.topic-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -13px 20px 70px 20px;
+  align-items: flex-start;
+}
+
+.topic-link h3 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: -0.045em;
+  color: #23242A;
+}
+
+.topic-link a {
+  display: flex;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 135%;
+  letter-spacing: -0.01em;
+  text-decoration-line: underline;
+  color: #0E6FFF;
+}
+
+.col-33 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-33-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  box-shadow: 0px 15px 10px 2px rgb(39 92 141 / 12%);
+  padding: 50px 40px 49px 45px;
+  border-radius: 12px 12px 12px 12px
+}
+.border-link {
+  display: flex;
+  border-top: 3px solid #bab7b4;
+  padding-top: 49px;
+}
+
+.col-33-1 h4 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 110%;
+letter-spacing: -0.03em;
+color: #23242A;
+text-align: left;
+margin-bottom: 44px;
+}
+
+.col-33-1 p {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: #23242A;
+  text-align: left;
+  margin-bottom: 49px;
+}
+
+.col-33-1 a {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: rgba(17, 19, 30, 0.2);
+  opacity: #11131E, 20%;
+}
+
 
 /* блок со скриптом из Фигмы */
 .headline h2,
