@@ -179,6 +179,7 @@ image {
   display: flex;
   flex-direction: row;
   margin-top: 45px;
+  margin-bottom: 120px;
 }
 
 .name-title {
@@ -188,7 +189,7 @@ image {
   justify-content: center;
 }
 
-.comment-user h4 {
+.name-title h4 {
   font-family: Helvetica Neue;
   font-weight: bold;
   font-size: 30px;
@@ -197,8 +198,9 @@ image {
   color: #23242a;
 }
 
-.comment-user h5 {
+.name-title h5 {
   font-family: Helvetica Neue;
+  font-weight: normal;
   font-size: 24px;
   line-height: 130%;
   letter-spacing: -0.02em;
@@ -218,7 +220,7 @@ image {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 125px 0 125px;
+  margin: -120px 125px 0 125px;
 }
 
 .container-25 {
@@ -415,6 +417,16 @@ image {
   margin-top: 16px;
 }
 
+.title-description h4 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 110%;
+  letter-spacing: -0.03em;  
+  color: #23242A;
+}
+
 
 /* блок с 3мя колонками - аудит, тимворк, криейт */
 
@@ -511,6 +523,87 @@ margin-bottom: 44px;
   opacity: #11131E, 20%;
 }
 
+
+/* блок с лидерщип и фотографиями людей */
+
+.leadership-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 250px 0 100px 0;
+}
+
+.title-items h2 {
+  display: flex;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #23242A;
+  margin-bottom: 60px;
+}
+
+.title-items p {
+  display: flex;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23242A;
+}
+
+.lead-photo-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+.photo-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box {
+  width: 100%;
+  margin: 30px;
+}
+
+.comment-section-under {
+  display: flex;
+  flex-direction: column;
+  margin: 0 265px;
+  align-items: flex-start;
+}
+
+/* блок с желтым блоком и кнопкой, перед футтером */
+.yellow-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 175px 270px 280px 270px;
+  background: #FFF4D4;
+  border-radius: 12px;
+  padding: 103px 118px;
+}
+
+.bnt-addition-wrap {
+  margin: 0 120px;
+}
 
 /* блок со скриптом из Фигмы */
 .headline h2,
