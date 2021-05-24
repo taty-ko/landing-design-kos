@@ -173,6 +173,7 @@ image {
   font-size: 44px;
   line-height: 110%;
   color: #23242a;
+  text-align: justify;
 }
 
 .comment-user {
@@ -599,10 +600,95 @@ margin-bottom: 44px;
   background: #FFF4D4;
   border-radius: 12px;
   padding: 103px 118px;
+  text-align: justify;
 }
 
 .bnt-addition-wrap {
   margin: 0 120px;
+}
+
+
+
+/* footer */
+
+.main-footer {
+  width: 100%;
+  background: #23242A;
+  display: block;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 270px;
+}
+
+.left-bar-footer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: justify;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.left-bar-footer img {
+  width: 100%;;
+}
+
+.right-bar-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-33 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-33-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 10px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+ text-align: left;
+}
+
+.footer-33-1 a:active {
+  color: #0e6fff;
+}
+
+
+
+.head-name-33-1 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 51px;
 }
 
 /* блок со скриптом из Фигмы */
