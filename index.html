@@ -14,11 +14,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </head>
 <body>
-        <header>
-          <a href="#">
-            <img src="images/space.png" alt="logo">
-          </a>
-          <nav>
+        <header id="header">
+          <strong class="logo">
+            <a href="#">
+              <img src="images/space.png" alt="space">
+            </a>
+          </strong>
+          
+          <div class="active-bar">
+            <nav>
               <ul>
                   <li> 
                     <a href="#">Home</a>
@@ -33,20 +37,25 @@
                     <a href="#">Help</a>
                   </li>    
               </ul>
-          </nav>
+            </nav>
 
-          <span>
-            <a href="#">Get in touch</a> 
-          </span> 
+            <span>
+              <a href="#">Get in touch</a> 
+            </span> 
+          </div>
+          
         </header>
       
 
-        <main>
-          <section>
-              <aside>
-                <p class="design-inspiration">DESIGN INSPIRATION</p>
-                <h1>Convallis turpis erat tempus, viverra aliquet. </h1>
-                <a href="#" class="btn-blue">Get In Touch</a>
+        <main id="main">
+          <section class="head-box">
+              <div class="left-container">
+                <div>
+                  <span class="design-inspiration">DESIGN INSPIRATION</span>
+                  <h1>Convallis turpis erat tempus, viverra aliquet. </h1>
+                  <a href="#" class="btn-blue">Get In Touch</a>
+                </div>
+                
                 <div class="comment">
                   <p>I feel so much less stressed ❤️ as I now know by the book.”</p>
                   <div class="user-name">
@@ -56,8 +65,9 @@
                       <h5>CEO at Whatever</h5>
                     </div> 
                   </div> 
+
                 </div>
-              </aside>
+              </div>
               <img class="img-slide" src="/images/slider.png" alt="swatch">            
           </section>
         
